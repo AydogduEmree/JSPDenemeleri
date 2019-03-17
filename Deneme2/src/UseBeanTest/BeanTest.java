@@ -35,7 +35,15 @@ public class BeanTest extends HttpServlet {
 		request.setAttribute("user", user);
 		
 		request.getRequestDispatcher("BeanTest.jsp").forward(request, response);
-		
+		/*
+		 Maven projesi için :
+		 	1: Window -> Preferences 
+		 	2: Filter ' a Maven yazýp-> Archetypes -> Add Remote Catalog
+		 	3: Catalog File : http://repo.maven.apache.org/maven2/archetype-catalog
+		 	4: Descriptions : Maven catalog
+		 	5: Verify
+		 	6: ok -> Apply changes
+		 */
 	}
 
 	/**
